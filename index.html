@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>BMI Calculate</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link href="ST.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center" style="margin:20px;">
+          <div class="col-lg-6 col-md-8 login-box">
+            <div class="col-lg-12 login-title">
+        <div class="bmi">
+            <div class="bmi-title">คำนวณค่า BMI</div>
+            
+            <div class="bmi-height">
+            <p>ส่วนสูง cm </p>
+            <input type="number" id="height"  placeholder=" ส่วนสูง: เซนติเมตร">
+            </div>
+            <div class="bmi-weight">
+            <p>น้ำหนัก kg </p>
+            <input type="number" id="weight"  placeholder=" น้ำหนัก: กิโลกรัม">
+            </div>
+            <h1></h1>
+            <button class="calculate">คำนวณค่า</button>
+    
+           <div class="avg-box">
+            <p class="title-avg">BMI</p>
+            <div class="avg"></div>
+           </div>
+            <div class="info-bmi">
+               <div class="info"></div>
+            </div>
+        </div>
+        
+       <script src="Java.js"></script>
+</body>
+</html>

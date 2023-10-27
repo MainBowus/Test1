@@ -1,0 +1,87 @@
+body {
+  background-color: #99b5c2;
+  background-image: -webkit-linear-gradient(160deg, #071014 0%, #74c554 100%);
+  background-image: -moz-linear-gradient(160deg, #7ccff3 0%, #84af4c 100%);
+  background-image: -o-linear-gradient(160deg, #071014 0%, #6d435b 100%);
+  background-image: linear-gradient(160deg, #7ed8ff 0%, #b68843 100%);  
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+}
+.login-box {
+    margin-top: 75px;
+    background: #d2f599;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 15px;
+}
+.login-title {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 35px;
+    font-weight: bold;
+    color: #5bb8ab;
+}
+.login-form {
+    margin-top: 25px;
+    text-align: left;
+}
+input[type=text] {
+    background-color: #191f22;
+    border: none;
+    border-bottom: 2px solid #a34082;
+    border-top: 0px;
+    border-radius: 0px;
+    outline: 0;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    color: #ECF0F5;
+}
+input[type=password] {
+    background-color: #1A2226;
+    border: none;
+    border-bottom: 2px solid #d371b2;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    color: #1c232c;
+}
+.form-group {
+margin: 30px;
+}
+.form-control:focus {
+    box-shadow: none;
+    background-color: #1A2226;
+    color: #ECF0F5;
+}
+.form-control-label {
+    font-size: 15px;
+    color: #6C6C6C;
+    letter-spacing: 1px;
+}
+.btn-outline-primary {
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  cursor: pointer;
+  border-color:#992455!important;
+  color:#9e6d9a;
+  margin-top: 30px;
+}
+.btn-outline-primary:hover{
+  background-color: #c279d8!important;
+  background-image: -webkit-linear-gradient(160deg, #071014 0%, #6e276e 100%)!important;
+  background-image: -moz-linear-gradient(160deg, #071014 0%, #0db8de 100%)!important;
+  background-image: -o-linear-gradient(160deg, #040708 0%, #0db8de 100%)!important;
+  background-image: linear-gradient(160deg, #071014 0%, #0db8de 100%)!important;
+  
+  color: #ffffff!important;
+}
+.login-button {
+    padding-right: 0px;
+    text-align: right;
+    margin-bottom: 25px;
+}
+.login-text {
+    padding-left: 0px;
+    color: #A2A4A4;
+}
